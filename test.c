@@ -7,7 +7,7 @@ int main (void)
     if (num < 9)
     {
         printf("No");
-        return;
+        return 0;
     }
     printf("Okay");
 }
