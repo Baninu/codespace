@@ -3,10 +3,11 @@
 
 int main (void)
 {
-    int num = get_int("Numbers of animals:");
-    int birth = num/3;
-    int death = num/4;
-    printf("Original number:%d%s%d%s%d ",num,",Birth: ",birth,",Death: ",death);
-
-
+    int num = get_int("How many animal: ");
+    if (num < 9)
+    {
+        printf("No");
+        return;
+    }
+    printf("Okay");
 }
